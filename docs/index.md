@@ -8,16 +8,15 @@ be used mostly by exploit developers and reverse-engineers, to provide
 additional features to GDB using the Python API to assist during the process of
 dynamic analysis and exploit development.
 
-It has full support for both Python2 and Python3 indifferently (as more and more
-distros start pushing `gdb` compiled with Python3 support).
+It requires Python 3, but [`gef-legacy`](https://github.com/hugsy/gef-legacy) can be used if Python 2 support is needed.
 
 ![gef-context](https://i.imgur.com/E3EuQPs.png)
 
 ## GDB Made Easy
 
   * **One** single GDB script
-  * Entirely **OS Agnostic**, **NO** dependencies: `GEF` is battery-included and [is installable instantly](https://hugsy.github.io/gef/#setup)
-  * **Fast** limiting the number of dependencies and optimizing code to makethe commands as fast as possible
+  * Entirely **architecture agnostic**, **NO** dependencies: `GEF` is battery-included and [is installable instantly](https://hugsy.github.io/gef/#setup)
+  * **Fast** limiting the number of dependencies and optimizing code to make the commands as fast as possible
   * Provides a great variety of commands to drastically change your debugging experience in GDB.
   * [**Easily** extensible](https://hugsy.github.io/gef/api/) to create other commands by providing more comprehensible layout to GDB Python API.
   * Full Python3 support ([Python2 support was dropped in 2020.03](https://github.com/hugsy/gef/releases/tag/2020.03)) - check out [`gef-legacy`](https://github.com/hugsy/gef-legacy) for a Python2 compatible version, and [the compatibility matrix](/docs/compat.md) for a complete rundown of version support.

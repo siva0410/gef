@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-    <a href="https://discord.gg/HCS8Hg7"><img alt="Discord" src="https://img.shields.io/badge/Discord-BlahCats-yellow"></a>
+    <a href="https://discord.gg/hSbqxxBgRX"><img alt="Discord" src="https://img.shields.io/badge/Discord-BlahCats-yellow"></a>
   <a href="https://hugsy.github.io/gef"><img alt="Docs" src="https://img.shields.io/badge/Docs-gh--pages-brightgreen"></a>
   <a title="Use the IDs: gef/gef-demo" href="https://demo.gef.blah.cat"><img alt="Try GEF" src="https://img.shields.io/badge/Demo-Try%20GEF%20Live-blue"></a>
 </p>
@@ -43,7 +43,7 @@ You can immediately see that GEF is correctly installed by launching GDB:
 A few of `GEF` features include:
 
   * **One** single GDB script
-  * Entirely **OS Agnostic**, **NO** dependencies: `GEF` is battery-included and [is installable instantly](https://hugsy.github.io/gef/#setup)
+  * Entirely **architecture agnostic**, **NO** dependencies: `GEF` is battery-included and [is installable instantly](https://hugsy.github.io/gef/#setup)
   * **Fast** limiting the number of dependencies and optimizing code to make the commands as fast as possible
   * Provides a great variety of commands to drastically change your experience in GDB.
   * [**Easily** extensible](https://hugsy.github.io/gef/api/) to create other commands by providing more comprehensible layout to GDB Python API.
